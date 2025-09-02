@@ -7,12 +7,9 @@
 // Function to simulate a delay (blocking delay)
 void delay_ms(int ms) {
     volatile long i, j; 	// Use volatile to prevent optimization
-    
-	
+
 // Adjust this value for desired delay
-               // Do nothing, just waste time
-   
-   
+               // Do nothing, just waste time   
 }
 
 int main() {
