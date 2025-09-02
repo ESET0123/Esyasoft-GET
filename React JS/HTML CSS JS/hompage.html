@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Homepage</title>
+    </head>
+    <body>
+        <h1 style="color: brown; text-decoration: underline;">Hi I am rishav</h1>
+        <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">First page for html</p>
+        <a style="text-decoration: none;" href="https://www.google.com">Click here to move to google</a><br>
+        <a id="SecondAnchor" style="text-decoration: none;" href="./about.html">Click here to move to about page</a><br>
+        <button onclick="abc()">Function abc</button>
+         <script>
+            function abc(){
+                const age=prompt("Enter your age");
+                console.log("Age: ", age);
+                document.querySelector("h1").innerText="Hi I am rishav. Your age is "+ age;
+                document.querySelector("a").style.color="Orange";
+                document.getElementById("SecondAnchor").style.color="Green";
+            }
+        </script>
+    </body>
+</html>

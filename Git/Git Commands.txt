@@ -1,0 +1,7 @@
+git clone <url>     //to clone from online repo to local
+git init    //to initialize
+git status      // shows current status
+git add <file name>     // add specific files to stage   (use . to stage all files)
+git commit -m "<commit message>"        //commit to local 
+git push <remote_name> <branch_name>        //push to github repo
+git commit --amend -m "<message>"       //update in previous commit
