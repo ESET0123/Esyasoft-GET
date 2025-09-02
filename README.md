@@ -1,2 +1,2 @@
 # Esyasoft-GET
-Graduate Engineer Training
+Graduate Engineer Training Programme
