@@ -3,16 +3,14 @@
 #include <stdio.h> // Standard input/output library (for printf)
 
 int main(){
-    int buttonControl, count=0;
-    printf("Enter number of LED blinks: ");
-    scanf("%d", &buttonControl);
-    while(count<buttonControl){
-        count++;
-        printf("LED Blinks  %d\n", count);
-    }
-    if(count!=buttonControl){
-        printf("Result failed");
-    }else{
-        printf("Exact number of blinks occured");
+    while(1){
+        printf("Enter 1 to test LED blinks and 2 to exit: ");
+        int buttonControl;
+        scanf("%d", &buttonControl);
+        if(buttonControl == 1){
+            printf("LED Blinked \n");
+        }else if(buttonControl != 1){
+            break;
+        }
     }
 }
