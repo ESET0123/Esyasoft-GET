@@ -1,9 +1,11 @@
-import Counter from './Counter.js';
+import EventComponent from './components/EventComponent.js';
+import LoginComponent from './components/LoginComponent.js';
 
 function App() {
   return (
-    <div className="App">
-     <Counter/>
+    <div>
+      {/* <EventComponent/> */}
+      <LoginComponent/>
     </div>
   );
 }
